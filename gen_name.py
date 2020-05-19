@@ -5,6 +5,23 @@ import getopt
 import random
 
 MALE_FIRST_NAMES = [
+  # core book names
+  "Dawit", 
+  "Yared", 
+  "Amanuel", 
+  "Jemal", 
+  "Nahom", 
+  "Samson", 
+  "Bereket", 
+  "Beruk", 
+  "Kassahun", 
+  "Kirubel", 
+  "Ejigu", 
+  "Jember", 
+  "Adisu", 
+  "Aman", 
+  "Fikre",
+  # Ancalia source book names
   "Abel",
   "Admassu",
   "Amir",
@@ -33,6 +50,23 @@ MALE_FIRST_NAMES = [
 ]
 
 FEMALE_FIRST_NAMES = [
+  # core book names
+  "Rediet", 
+  "Winta", 
+  "Samira", 
+  "Ayda", 
+  "Saba", 
+  "Hani", 
+  "Dina", 
+  "Tinsae", 
+  "Sumeya", 
+  "Gadise", 
+  "Makda", 
+  "Teru", 
+  "Zenaye", 
+  "Mehret", 
+  "Hanna",
+  # Ancalia source book names
   "Adina",
   "Altaye",
   "Amara",
@@ -60,6 +94,21 @@ FEMALE_FIRST_NAMES = [
 ]
 
 FAMILY_NAMES = [
+  # core book names
+  "Tewolde", 
+  "Senai", 
+  "Zerezghi", 
+  "Alazar", 
+  "Nemariam", 
+  "Berhane", 
+  "Helebo", 
+  "Soro", 
+  "Dega", 
+  "Gatimo", 
+  "Minale", 
+  "Bishaw", 
+  "Amare",
+  # Ancalia source book names
   "Abdimelech",
   "Admassu",
   "Basliel",
