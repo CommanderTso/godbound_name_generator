@@ -162,7 +162,7 @@ def main(argv):
   try: 
     opts, args = getopt.getopt(argv, "hmf", ["help", "male", "female"])
   except getopt.GetoptError:
-    print(HELP_TEXT)
+    print("Invalid flags. Please use --help to see options.")
     sys.exit(2)
 
   for opt, arg in opts:
@@ -176,7 +176,9 @@ def main(argv):
       print("Internal Error - sorry!")
       sys.exit(2)
 
-    print(result)
+  if len(opts) == 0:
+    print(HELP_TEXT)
+    sys.exit(0)
 
 if __name__ == "__main__":
   main(sys.argv[1:])
